@@ -8,10 +8,10 @@ title:
   tags: 标签
   about: 关于
 
-author: 博主
+author: 建站人
 
 menu:
-  home: 首页
+  home: 主页
   archives: 归档
   categories: 分类
   tags: 标签
@@ -31,7 +31,7 @@ post:
   sticky: 置顶
   posted: 发表于
   in: 分类于
-  read_more: 阅读全文
+  read_more: 阅读全部内容
   untitled: 未命名
   toc_empty: 此文章未包含目录
   visitors: 阅读次数
