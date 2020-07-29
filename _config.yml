@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: "py可爱的小房子."
-subtitle: "一秒接过制服，一生志在蓝天"
+title: py可爱的小房子.
+subtitle: 一秒接过制服，一生志在蓝天
 description:
-author: Barry Liu
+author: Barry Liu;Py
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
