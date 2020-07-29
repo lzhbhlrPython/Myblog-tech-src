@@ -90,7 +90,7 @@ rss:
 #since: 2020
 
 # icon between year and author @Footer
-authoricon: fighter-jet 
+authoricon: terminal  
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: false
@@ -318,8 +318,8 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -483,7 +483,7 @@ duoshuo_info:
   ua_enable: true
   admin_enable: false
   user_id: 0
-  #admin_nickname: Author
+  admin_nickname: Author
 
 
 # Facebook SDK Support.
