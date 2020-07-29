@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
+title: "py可爱的小房子."
+subtitle: "一秒接过制服，一生志在蓝天"
 description:
-author: John Doe
+author: Barry Liu
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -84,10 +84,10 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss:false
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2020
 
 # icon between year and author @Footer
 authoricon: heart
@@ -223,7 +223,7 @@ font:
 #   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
+  enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
@@ -354,7 +354,6 @@ custom_logo:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
-
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
