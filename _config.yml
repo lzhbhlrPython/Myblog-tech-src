@@ -216,7 +216,7 @@ font:
 social:
   Github: https://github.com/lzhbhlrPython
   Email: mailto:Liubaolin20070125@outlook.com
-
+  QQ: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1840198642&website=lzhbhlrPython.github.io
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -228,7 +228,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Email: envelope
-
+  QQ: qq
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
