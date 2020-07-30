@@ -23,6 +23,7 @@ post_class = post_class | append: ' ' | append: post_extra_class | default: '' %
                 </span> {% endif %}
             <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
                 {% if post.title %}{{ post.title }}{% else %}{{  post.link }}{% endif %}
+                {% if page.music-id %} {% include wangyi-music.html %} {% endif %} 
                 <i class="fa fa-external-link"></i>
               </a> {% else %} {% if is_index %} {% if post.sticky > 0 %}
             <span class="post-sticky-flag" title="{{ __.post.sticky }}">
