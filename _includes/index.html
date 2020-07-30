@@ -3,5 +3,26 @@
 <section id="posts" class="posts-expand">
     {% for post in posts %} {% assign is_index = true %} {% include _macro/post.html %} {% endfor %}
 </section>
-
+<script src="live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
+<script>
+    L2Dwidget.init({
+        "pluginRootPath": "live2dw/",
+        "pluginJsPath": "lib/",
+        "pluginModelPath": "assets/",
+        "tagMode": false,
+        "debug": false,
+        "model": {
+            "jsonPath": "/live2dw/assets/assets/shizuku.model.json"
+        },
+        "display": {
+            "position": "right",
+            "width": 200,
+            "height": 400
+        },
+        "mobile": {
+            "show": true
+        },
+        "log": false
+    });
+</script>
 {% include _partials/pagination.html %}
