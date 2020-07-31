@@ -18,4 +18,7 @@ copyright: true
 
 拜了您！最近要更RainbowUI，没啥时间搞博文，还请谅解！
 
+[Github](https://github.com/lzhbhlrPython/RainbowUI)
+[gitee](https://gitee.com/PythonStart/RainbowUI)
+
 [![刘抱霖/RainbowUI](https://gitee.com/PythonStart/RainbowUI/widgets/widget_card.svg?colors=000000,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/PythonStart/RainbowUI) 
