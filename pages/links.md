@@ -19,10 +19,3 @@ title: 友情链接
   </li>
   {%- endfor %}
 </ul>
-<script>
-  function box_links(){
-  Swal.fire(
-  '我的小请求',
-  '大佬们加个Q行不行？({{site.qqNum}}备注Blog)'
-)}
-</script>

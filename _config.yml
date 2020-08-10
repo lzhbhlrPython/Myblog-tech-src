@@ -60,11 +60,6 @@ extTimeis: true
 # font-awesome cdn链接，可自行修改
 fontawesomeUrl: https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 
-# sweetalert2弹窗服务，移动端优化未知:
-extAlertLinks: false
-sweetalert2_cdn_js: https://cdn.bootcdn.net/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js
-sweetalert2_cdn_css: https://cdn.bootcdn.net/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css
-qqNum: 1840198642
 # 友情链接
 links:
   - title: 小蛾子制造商(我的团队)
