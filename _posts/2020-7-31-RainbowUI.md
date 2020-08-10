@@ -2,7 +2,7 @@
 title: RainbowUI
 layout: mypost
 categories:
-- [Work]
+- Work
 ---
 ### 我的新项目:RainbowUI
 -----
