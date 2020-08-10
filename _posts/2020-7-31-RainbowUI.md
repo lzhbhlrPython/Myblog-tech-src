@@ -1,6 +1,6 @@
 ---
-title: RainbowUI
 layout: mypost
+title: RainbowUI
 categories:
 - Work
 ---
