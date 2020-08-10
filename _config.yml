@@ -56,7 +56,6 @@ extMath: true
 
 # time.is时间服务，不需要请设置false
 extTimeis: true
-extTimeis_size: 18px
 
 # 友情链接
 links:
