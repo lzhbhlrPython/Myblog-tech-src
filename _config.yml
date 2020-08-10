@@ -54,6 +54,10 @@ extBaidu: true
 # 数学公式支持，比较影响加载速度,不需要请设置为false
 extMath: true
 
+# time.is时间服务，不需要请设置false
+extTimeis: true
+extTimeis_size: 18px
+
 # 友情链接
 links:
   - title: 小蛾子制造商(我的团队)
