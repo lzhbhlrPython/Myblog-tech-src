@@ -140,8 +140,8 @@ menu_icons:
   schedule: calendar
   tags: tags
   archives: archive
-  sitemap: sitemap
-  commonweal: heartbeat
+  #sitemap: sitemap
+  #commonweal: heartbeat
 
 
 
@@ -249,7 +249,7 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-creative_commons: by-nc-sa
+#creative_commons: by-nc-sa
 #creative_commons:
 
 
@@ -263,9 +263,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  #display: post
+  display: post
   #display: always
-  display: hide
+  #display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -273,7 +273,7 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: true
+  #b2t: true
 
   # Scroll percent label in b2t button
   scrollpercent: false
@@ -329,7 +329,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -362,12 +362,12 @@ highlight_theme: night
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
-han: false
+han: true
 
 # Swiftype Search API Key
 #swiftype_key:
@@ -531,7 +531,7 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -631,7 +631,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
@@ -640,7 +640,7 @@ three_waves: false
 canvas_lines: false
 
 # canvas_sphere
-canvas_sphere: false
+canvas_sphere: true
 
 # Only fit scheme Pisces
 # Canvas-ribbon
