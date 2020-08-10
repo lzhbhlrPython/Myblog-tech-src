@@ -1,10 +1,8 @@
 ---
 title: RainbowUI
-date: 2020-7-31 16:18:35
+layout: mypost
 categories:
-- Work
-tags: Work
-copyright: true
+- [Work]
 ---
 ### 我的新项目:RainbowUI
 -----
