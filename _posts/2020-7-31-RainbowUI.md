@@ -3,6 +3,7 @@ layout: mypost
 title: RainbowUI
 categories:
 - Work
+comment: true
 ---
 ### 我的新项目:RainbowUI
 -----
