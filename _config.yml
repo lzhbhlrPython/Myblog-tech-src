@@ -61,8 +61,8 @@ extTimeis: true
 fontawesomeUrl: https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 
  # disqus settings
- disqus:
- shortname: lzhbhlrpython
+ page_host: https://lzhbhlrpython.github.io
+ disqus_shortname: lzhbhlrpython
 # 友情链接
 links:
   - title: 小蛾子制造商(我的团队)
