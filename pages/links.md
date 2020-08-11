@@ -11,7 +11,9 @@ title: 友情链接
 地址：{{ site.domainUrl }}{{ site.baseurl }}
 头像：{{ site.domainUrl }}{{ site.baseurl }}/static/img/logo.jpg
 ```
-
+```
+关于网站建设的相关问题也麻烦到留言板讨论，评论功能仅限于讨论文章谢谢。
+```
 <ul>
   {%- for link in site.links %}
   <li>

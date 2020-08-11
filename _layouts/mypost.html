@@ -17,8 +17,16 @@
             {% include ext-adsense.html -%}
         </div>
         {% endif %}
-    </div>
-    {% include footer.html -%} {% include script.html -%}
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <hr/>
+        <div>
+            {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+        </div>
+        {% include footer.html -%} {% include script.html -%}
 </body>
 
 </html>
