@@ -1,6 +1,5 @@
 ---
 layout: mypost
-comment: true
 title: RainbowUI
 categories:
 - Work

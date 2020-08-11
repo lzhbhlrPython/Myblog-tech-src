@@ -16,12 +16,9 @@
         <div class="adsense" style="overflow: hidden;">
             {% include ext-adsense.html -%}
         </div>
-        {% endif %} {% if site.disqus_shortname %}
-        <hr/>
-        <div>
-            {% include keynote.html %}
-        </div>
-        {% endif %} {% include footer.html -%} {% include script.html -%}
+        {% endif %
+    </div>
+    {% include footer.html -%} {% include script.html -%}
 </body>
 
 </html>
