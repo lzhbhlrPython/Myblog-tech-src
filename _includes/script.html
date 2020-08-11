@@ -7,8 +7,9 @@
 </script>
 <script type="text/javascript" src="{{site.baseurl}}/static/js/blog.js?t={{ buildAt }}"></script>
 <script type="text/javascript" src="{{site.baseurl}}/static/js/search.js?t={{ buildAt }}"></script>
-{%- if site.extAlertlink -%}
-<script type="text/javascript" src="{{site.sweetalert2_cdn_js}}"></script>{% endif %} {%- if site.extClickEffect %}
+{%- if site.extLive -%}
+<script type="text/javascript" src="{{site.baseurl}}/static/live2dw/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
+{% include ext-live2d.html %} {% endif %} {%- if site.extClickEffect %}
 <!-- 点击页面文字冒出特效 -->
 <script>
     ;
