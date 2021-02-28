@@ -1,0 +1,39 @@
+---
+title: friendlink
+date: 2021-02-28 10:42:44
+---
+
+## 友链列表
+<style>
+    #metainfo ul li{
+        list-style-type:none;
+        font-size:14px;
+        line-height:16px
+    }
+    #FRIENDLINKS .fl-element{
+        display: inline-block;
+    }
+</style>
+<div id="metainfo">
+    <blockquote>
+        <p>欢迎与本站互换友链!本站信息如下</p>
+        <ul>
+            <li>网站名: Py的Blogggg</li>
+            <li>介绍 :一秒接过制服,一生志在蓝天</li>
+            <li>Link: https://blog.pyliubaolin.top/
+            <li>Logo: https://blog.pyliubaolin.top/img/favicon.png</li>
+            <li>留言板: https://support.qq.com/products/192285</li>
+        <ul>
+    </blockquote>
+</div>
+
+<div id="FRIENDLINKS">
+    <span class="fl-element">
+        <img style="height:160px;width:160px;" src="http://blog.tmaize.net/static/img/logo.jpg" />
+        <a href="https://blog.tmaize.net">友情链接:TMaize Blog</a>
+    </span>
+    <span class="fl-element">
+        <img style="height:160px;width:160px;" src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/public/avatar.jpg" />
+        <a href="https://zkpeace.com">友情链接:zkpeace</a>
+    </span>
+</div>
