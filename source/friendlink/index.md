@@ -30,10 +30,14 @@ date: 2021-02-28 10:42:44
 <div id="FRIENDLINKS">
     <span class="fl-element">
         <img style="height:160px;width:160px;" src="http://blog.tmaize.net/static/img/logo.jpg" />
-        <a href="https://blog.tmaize.net">友情链接:TMaize Blog</a>
+        <a href="https://blog.tmaize.net">TMaize Blog</a>
     </span>
     <span class="fl-element">
         <img style="height:160px;width:160px;" src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/public/avatar.jpg" />
-        <a href="https://zkpeace.com">友情链接:zkpeace</a>
+        <a href="https://zkpeace.com">zkpeace</a>
+    </span>
+    <span class="fl-element">
+        <img style="height:160px;width:160px;" src="https://secure.gravatar.com/avatar/56f7d54e5b0a52b69ed162fc8afcf424?s=65&r=X&d=" />
+        <a href="https://tanknee.cn">归舟棹远</a>
     </span>
 </div>
