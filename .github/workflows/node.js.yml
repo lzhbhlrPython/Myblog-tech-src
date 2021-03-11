@@ -4,7 +4,7 @@ name: Blog CI/CD
 on:
   push:
     branches: 
-      - hexo-blog-backup
+      - source
 
 env:
   TZ: Asia/Shanghai
