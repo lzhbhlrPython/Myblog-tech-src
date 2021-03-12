@@ -43,10 +43,10 @@ jobs:
         hexo clean
         hexo generate
 
-    - name: Execute gulp task
-      run: | 
-        yarn add gulp
-        gulp
+    #- name: Execute gulp task
+      #run: | 
+        #yarn add gulp
+        #gulp
 
     - name: Deploy hexo blog
       env: 
