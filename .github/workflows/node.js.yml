@@ -44,7 +44,9 @@ jobs:
         hexo generate
 
     - name: Execute gulp task
-      run: gulp
+      run: | 
+        yarn add gulp
+        gulp
 
     - name: Deploy hexo blog
       env: 
