@@ -1,38 +1,47 @@
-name: CI
-
+name: GitHub Actions Build and Deploy
 on:
   push:
     branches:
       - master
 
-env:
-  GIT_USER: lzhbhlrpython
-  GIT_EMAIL: liubaolin20070125@outlook.com
-  THEME_REPO: Fechin/hexo-theme-diaspora
-  THEME_BRANCH: master
-  DEPLOY_REPO: lzhbhlrpython/lzhbhlrpython.github.io
-  DEPLOY_BRANCH: master
-
 jobs:
-  build:
-    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
+  build-and-deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node_version: [12.x]
-
     steps:
-      - name: Hexo Action with Nodejs v14.15.5 LTS
-        # You may pin to the exact commit or the version.
-        # uses: mark0smith/hexo-action@522dd860321f4f9f8f3861b1e9199ba1246a0b7e
-        uses: mark0smith/hexo-action@v0.0.1
-        with:
-          # Github user name
-          user_name: github-actions[bot] # default is github-actions[bot]
-          # Github email
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com # default is 41898282+github-actions[bot]@users.noreply.github.com
-          # The deploy key for Github Pages repo
-          deploy_key: Action # default is 
-          # Git commit messages to your GitHub Pages repository.
-          commit_msg: Deploy-Action # optional, default is 
+
+    - name: 1. git checkout...
+
+      uses: actions/checkout@v1
+
+    - name: 2. setup nodejs...
+
+      uses: actions/setup-node@v1
+
+    - name: 3. install hexo...
+
+      run: |
+        npm install hexo-cli -g
+        npm i -S hexo-prism-plugin -g
+        npm install hexo-generator-search --save -g
+        npm i hexo-permalink-pinyin  -g
+        npm i --save hexo-wordcount -g
+        npm install hexo-filter-github-emojis  -g
+        npm install hexo-generator-feed  -g
+        npm install
+
+    - name: 4. hexo generate public files...
+
+      run: |
+        hexo clean
+        hexo g
+    
+    # 提交到我们的存放静态资源的仓库
+
+    - name: Build and Deploy
+
+      uses: y4code/hexo-deploy-action@master
+      env:
+        PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        PUBLISH_REPOSITORY: lzhbhlrpython/it-lzhbhlrpython.github.io # The repository the action should deploy to.
+        BRANCH: master  # The branch the action should deploy to.
+        PUBLISH_DIR: ./public # The folder the action should deploy.
