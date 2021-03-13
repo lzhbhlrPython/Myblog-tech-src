@@ -9,39 +9,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: 1. git checkout...
-
-      uses: actions/checkout@v1
-
-    - name: 2. setup nodejs...
-
-      uses: actions/setup-node@v1
-
-    - name: 3. install hexo...
-
-      run: |
-        npm install hexo-cli -g
-        npm i -S hexo-prism-plugin -g
-        npm install hexo-generator-search --save -g
-        npm i hexo-permalink-pinyin  -g
-        npm i --save hexo-wordcount -g
-        npm install hexo-filter-github-emojis  -g
-        npm install hexo-generator-feed  -g
-        npm install
-
-    - name: 4. hexo generate public files...
-
-      run: |
-        hexo clean
-        hexo g
-    
-    # 提交到我们的存放静态资源的仓库
-
-    - name: Build and Deploy
-
-      uses: y4code/hexo-deploy-action@master
-      env:
-        PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        PUBLISH_REPOSITORY: lzhbhlrpython/it-lzhbhlrpython.github.io # The repository the action should deploy to.
-        BRANCH: master  # The branch the action should deploy to.
-        PUBLISH_DIR: ./public # The folder the action should deploy.
+      - name: Hexo Auto Deploy
+      # You may pin to the exact commit or the version.
+      # uses: bluekrow/hexo-auto-deploy@7aadc9941b256fba49ba35e649d74e3296345f3d
+        uses: bluekrow/hexo-auto-deploy@v1.1.0
+        with:
+          # Github secret token that grants access to the destination repository. If the detination repository is the same local repositroy, the token can be obtained using \$\{\{ secrets.GITHUB_TOKEN \}\}
+          token: ${{ secrets.ACCESS_TOKEN }}
+          # Destination repository name. If not specified the default value is the local repository name
+          repo_name: lzhbhlrpython/lzhbhlrpython.github.io # optional, default is ${{ github.EVENT.REPOSITORY.NAME }}
+          # Destination repository owner name. If not specified the default value is the local repository owner name
+          owner_name: lzhbhlrpython # optional, default is ${{ github.EVENT.REPOSITORY.OWNER.NAME }}
+          # Destination repository owner email. If not specified the default value is the local repository owner email
+          owner_email: Liubaolin20070125@outlook.com # optional, default is ${{ github.EVENT.REPOSITORY.OWNER.EMAIL }}
+          # Commit message which originated this action execution. If specified, the commit message will be overridden
+          commit_message: ACTION # optional, default is ${{ github.EVENT.HEAD_COMMIT.MESSAGE }}
+          # Destination deploy branch. If not specified the default value is "gh-pages"
+          deploy_branch: master # optional, default is gh-pages
+          # Local deploy directory to link to the remote repository and branch. If not specified the default value is ".deploy"
+          deploy_dir: .deploy # optional, default is .deploy
+          # Local source directory, where the static content has been generated. If not specified the default value is "public"
+          source_dir: public # optional, default is public
