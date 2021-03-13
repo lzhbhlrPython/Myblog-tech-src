@@ -23,45 +23,16 @@ jobs:
         node_version: [12.x]
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Checkout theme repo
-        uses: actions/checkout@v2
+      - name: hexo_action
+      # You may pin to the exact commit or the version.
+  # uses: esphere-dumal/hexo_action@c2dbd777c96dd3107f412c22e9d069a61cceba76
+        uses: esphere-dumal/hexo_action@1.0.0
         with:
-          repository: ${{ env.THEME_REPO }}
-          ref: ${{ env.THEME_BRANCH }}
-          path: themes/diaspora
-
-      - name: Checkout deploy repo
-        uses: actions/checkout@v2
-        with:
-          repository: ${{ env.DEPLOY_REPO }}
-          ref: ${{ env.DEPLOY_BRANCH }}
-          path: .deploy_git
-
-      - name: Use Node.js ${{ matrix.node_version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node_version }}
-
-      - name: Configuration environment
-        env:
-          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
-        run: |
-          sudo timedatectl set-timezone "Asia/Shanghai"
-          mkdir -p ~/.ssh/
-          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.name $GIT_USER
-          git config --global user.email $GIT_EMAIL
-          cp _config.diaspora.yml themes/diaspora/_config.yml
-
-      - name: Install dependencies
-        run: |
-          npm install
-
-      - name: Deploy hexo
-        run: |
-          npm run deploy
+          # github username
+          user_name: github_action # default is github_action
+          # github user_email
+          user_email: github_action@github.com # default is github_action@github.com
+          # the deploy key for repo
+          deploy_key: 9QEEvE0jiQRDFRel6p8x8YbeT8frlAWRZqwTnlsC+T4 # default is 
+          # commit messages for repo
+          commit_msg: ACTION-DEPLOY # optional, default is 
