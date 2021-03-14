@@ -22,7 +22,7 @@ after_script:
   - git config user.name "lzhbhlrpython"
   - git config user.email "Liubaolin20070125@outlook.com"
   - git add .
-  - git commit -m "TravisCI uto Deploy"
+  - git commit -m "TravisCI Auto Deploy"
   # Github Pages
   - git push --force --quiet "https://${TOKEN}@${GH_REF}" master:master
 
