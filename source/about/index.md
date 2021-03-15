@@ -22,7 +22,7 @@ date: 2021-02-28 09:18:30
     - Python-Pygame
     - Python-PyQt5、Tkinter、Wxpython
     - Python-Requests
-    - Javascripy-Electron、Vue.js、React
+    - Javascript-Electron、Vue.js、React
     - C++-Qt
 - 参与过的竞赛
     - 第二届隔镜杯数据爬虫大赛 三等奖
