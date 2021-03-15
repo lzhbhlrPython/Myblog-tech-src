@@ -26,7 +26,6 @@ date: 2021-02-28 10:42:44
         <ul>
     </blockquote>
 </div>
-
 <h3>好朋友们</h3>
 <div id="FRIENDLINKS">
     <span class="fl-element">
@@ -41,11 +40,16 @@ date: 2021-02-28 10:42:44
         <img style="height:160px;width:160px;" src="https://img.tanknee.cn/blogpicbed/2020/06/2020060186bc451656937.png/imgzip" />
         <a href="https://tanknee.cn">归舟棹远</a>
     </span>
-        <span class="fl-element">
+    <span class="fl-element">
         <img style="height:160px;width:160px;" src="https://tszhong0411.vercel.app/img/logo.png" />
         <a href="https://tszhong0411.vercel.app">TszHong</a>
     </span>
+    <span class="fl-element">
+        <img style="height:160px;width:160px;" src="https://novels.pyliubaolin.top/images/avatar.png" />
+        <a href="https://novels.pyliubaolin.top/">瞎哔哔的Py的随笔集</a>
+    </span>
 </div>
+
 
 ### 优质工具
 
