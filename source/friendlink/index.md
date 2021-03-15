@@ -27,6 +27,7 @@ date: 2021-02-28 10:42:44
     </blockquote>
 </div>
 
+<h3>好朋友们</h3>
 <div id="FRIENDLINKS">
     <span class="fl-element">
         <img style="height:160px;width:160px;" src="http://blog.tmaize.net/static/img/logo.jpg" />
@@ -45,3 +46,8 @@ date: 2021-02-28 10:42:44
         <a href="https://tszhong0411.vercel.app">TszHong</a>
     </span>
 </div>
+
+### 优质工具
+
+- [随机壁纸](https://acg.toubiec.cn/random.php)
+- [随机热歌](https://api.uomg.com/api/rand.music?sort=热歌榜&format=mp3)
