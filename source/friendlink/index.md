@@ -4,6 +4,10 @@ date: 2021-02-28 10:42:44
 ---
 
 ## 友链列表
+
+<script>
+	console.info("都打开我的F12了还不交个朋友吗？")
+</script>
 <style>
     #metainfo ul li{
         list-style-type:none;
@@ -16,14 +20,14 @@ date: 2021-02-28 10:42:44
 </style>
 <div id="metainfo">
     <blockquote>
-        <p>欢迎与本站互换友链!本站信息如下</p>
+        <p>欢迎与本站互换友链!本站信息如下<br/>请在留言板留言呢！</p>
         <ul>
             <li>网站名: Py的Blogggg</li>
             <li>介绍 :一秒接过制服,一生志在蓝天</li>
             <li>Link: https://blog.pyliubaolin.top/
             <li>Logo: https://blog.pyliubaolin.top/img/favicon.png</li>
             <li>留言板: https://support.qq.com/products/192285</li>
-        <ul>
+        </ul>
     </blockquote>
 </div>
 <h3>好朋友们</h3>
@@ -37,7 +41,7 @@ date: 2021-02-28 10:42:44
         <a href="https://zkpeace.com">zkpeace</a>
     </span>
     <span class="fl-element">
-        <img style="height:160px;width:160px;" src="https://img.tanknee.cn/blogpicbed/2020/06/2020060186bc451656937.png/imgzip" />
+        <img style="height:160px;width:160px;" src="https://blog.pyliubaolin.top/friendlink/tanknee.jpg" />
         <a href="https://tanknee.cn">归舟棹远</a>
     </span>
     <span class="fl-element">
@@ -51,7 +55,13 @@ date: 2021-02-28 10:42:44
 </div>
 
 
+
+
 ### 优质工具
 
 - [随机壁纸](https://acg.toubiec.cn/random.php)
 - [随机热歌](https://api.uomg.com/api/rand.music?sort=热歌榜&format=mp3)
+
+### 来玩个小游戏吧
+
+- [ChromeDragon](/game/ChromeDragon)
