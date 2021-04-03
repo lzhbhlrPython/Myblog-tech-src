@@ -49,6 +49,10 @@ date: 2021-02-28 10:42:44
         <a href="https://tszhong0411.vercel.app">TszHong</a>
     </span>
     <span class="fl-element">
+        <img style="height:160px;width:160px;" src="https://shakaianee.top/imgs/face.png" />
+        <a href="https://shakaianee.top/">社会易姐QwQ</a>
+    </span>
+    <span class="fl-element">
         <img style="height:160px;width:160px;" src="https://novels.pyliubaolin.top/images/avatar.png" />
         <a href="https://novels.pyliubaolin.top/">瞎哔哔的Py的随笔集</a>
     </span>
