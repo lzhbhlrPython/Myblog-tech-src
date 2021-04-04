@@ -68,4 +68,4 @@ date: 2021-02-28 10:42:44
 
 ### 来玩个小游戏吧
 
-- [ChromeDragon](/game/ChromeDragon)
+- [ChromeDragon](/game/ChromeDragon.html)
